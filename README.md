@@ -13,7 +13,7 @@ Installation
 Add `tmdk/composer-workspaces-plugin` to your project:
 
 ```sh
-composer require --dev tmdk/composer-workspaces-plugin=^1.0.0-alpha
+composer require --dev tmdk/composer-workspaces-plugin=^1.0.0-alpha1
 ```
 
 Usage
