@@ -1,0 +1,30 @@
+{
+    "name": "tmdk/composer-workspaces-plugin",
+    "description": "Workspaces plugin for Composer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tmdk",
+            "email": "tobiasvandijk@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "ext-json": "*",
+        "symfony/finder": "^4.2",
+        "symfony/filesystem": "^4.2",
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComposerWorkspacesPlugin\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "ComposerWorkspacesPlugin\\Plugin"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8.5"
+    }
+}
