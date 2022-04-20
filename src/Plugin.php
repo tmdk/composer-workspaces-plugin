@@ -132,8 +132,14 @@ class Plugin implements PluginInterface, Capable
         return self::VERSION;
     }
     
+     /**
+     * @return null
+     */
     public function deactivate(Composer $composer, IOInterface $io) {}
-
+    
+     /**
+     * @return string
+     */
     public function uninstall(Composer $composer, IOInterface $io) {}
 
 }
