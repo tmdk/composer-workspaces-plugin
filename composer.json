@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "composer-plugin-api": "^1.1",
+        "composer-plugin-api": "^1.1 || ^2.0",
         "ext-json": "*",
         "symfony/finder": "^4.2",
         "symfony/filesystem": "^4.2",
