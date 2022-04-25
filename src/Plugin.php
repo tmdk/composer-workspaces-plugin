@@ -13,7 +13,7 @@ use RuntimeException;
 
 class Plugin implements PluginInterface, Capable
 {
-    const VERSION = '1.0.0-alpha1';
+    const VERSION = '1.0.0-alpha2';
 
     /** @var Composer */
     protected $composer;
@@ -131,5 +131,15 @@ class Plugin implements PluginInterface, Capable
     public function getVersion() {
         return self::VERSION;
     }
+    
+     /**
+     * @return null
+     */
+    public function deactivate(Composer $composer, IOInterface $io) {}
+    
+     /**
+     * @return null
+     */
+    public function uninstall(Composer $composer, IOInterface $io) {}
 
 }
