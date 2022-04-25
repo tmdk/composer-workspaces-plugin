@@ -5,7 +5,8 @@ This composer plugin enables you to work with a monorepo containing multiple com
 
 Requirements
 ------------
-PHP 7.1 or above
+- PHP 7.1 or above
+- Composer 2
 
 ### Composer v1 support
 
@@ -19,7 +20,7 @@ Installation
 Add `tmdk/composer-workspaces-plugin` to your project:
 
 ```sh
-composer require --dev tmdk/composer-workspaces-plugin=^1.0.0
+composer require --dev tmdk/composer-workspaces-plugin=^2.0.0
 ```
 
 Usage
