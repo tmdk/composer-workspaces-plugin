@@ -14,7 +14,7 @@
         "ext-json": "*",
         "symfony/finder": "^4.2",
         "symfony/filesystem": "^4.2",
-        "php": "^7.1"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
