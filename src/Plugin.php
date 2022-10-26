@@ -13,7 +13,7 @@ use RuntimeException;
 
 class Plugin implements PluginInterface, Capable
 {
-    const VERSION = '2.0.0';
+    const VERSION = '2.0.1';
 
     /** @var Composer */
     protected $composer;

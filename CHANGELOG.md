@@ -1,3 +1,9 @@
+## 2.0.1 2022-10-26
+
+### Changed
+
+- Changed php requirement to >=7.1
+
 ## 2.0.0 2022-04-25
 
 ### Changed
